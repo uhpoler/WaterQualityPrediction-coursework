@@ -21,31 +21,24 @@ The software developed for this project includes the following functionality:
 
 ## Models and Results
 - K-Nearest Neighbors (KNN)
-  - Confusion Matrix Results:
-    - 72.58% of observations for class 0 were correctly classified.
-    - 4.48% of observations for class 0 were misclassified as class 1.
-    - 14.86% of observations for class 1 were misclassified as class 0.
-    - 8.08% of observations for class 1 were correctly classified.
-  - Important Features:
-    - High impact: Total Dissolved Solids, Chloride, Sulfate.
-    - Low impact: Lead, Manganese, Iron.
+  - High impact: Total Dissolved Solids, Chloride, Sulfate.
+  - Low impact: Lead, Manganese, Iron.
 - Random Forest Classifier (RFC)
-  - Confusion Matrix Results:
-    - 65.48% of observations for class 0 were correctly classified.
-    - 11.58% of observations for class 0 were misclassified as class 1.
-    - 0.89% of observations for class 1 were misclassified as class 0.
-    - 22.05% of observations for class 1 were correctly classified.
-  - Important Features:
-    - High impact: pH, Turbidity, Manganese.
-    - Low impact: Lead, Total Dissolved Solids.
+  - High impact: pH, Turbidity, Manganese.
+  - Low impact: Lead, Total Dissolved Solids.
 - Decision Tree Classifier (DTC)
-  - Confusion Matrix Results:
-    - 68.92% of observations for class 0 were correctly classified.
-    - 8.14% of observations for class 0 were misclassified as class 1.
-    - 8.23% of observations for class 1 were misclassified as class 0.
-    - 14.71% of observations for class 1 were correctly classified.
-  - Important Features:
-    - High impact: pH, Chloride, Turbidity, Manganese.
-    - Low impact: Lead, Zinc, Sulfate.
+  - High impact: pH, Chloride, Turbidity, Manganese.
+  - Low impact: Lead, Zinc, Sulfate.
+
+## Feature importance for KNN
+![image](https://github.com/user-attachments/assets/d2993fe4-3e95-477f-ad39-51e5505385b3)
+
+## Feature importance for RFC
+![image](https://github.com/user-attachments/assets/59c79d06-5d29-4426-a9cd-1cb635601784)
+
+## Feature importance for DТC
+![image](https://github.com/user-attachments/assets/702eefd4-c7df-4f63-b134-934b8a92ca3a)
+
+
 ## Conclusion
 The analysis of water quality using KNN, RFC, and DTC models provided insights into the most influential parameters affecting water quality. Among the three methods, Random Forest Classifier demonstrated the highest accuracy and effectiveness in classifying water quality, making it the most suitable method for this analysis.
